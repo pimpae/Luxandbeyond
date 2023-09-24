@@ -1,0 +1,204 @@
+:root{ 
+  --main: #e85f2b;  
+  --peach-dark:#DA6551;  
+  --peach-light: #E78A6B;  
+  --gold-dark: #D8BC57;  
+  --gold-light: #FEEDD5; 
+}
+a{
+  text-decoration: none !important; 
+}
+a:hover{
+  text-decoration: none;
+}
+body{
+  font-family: 'Inter', sans-serif;  
+}     
+header .top{
+  background-color: var(--main);
+  height: 40px; 
+} 
+header .top .mm{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}  
+header .top .mm a{ 
+  color: #fff;
+  padding-right: 20px;
+  position: relative; 
+  font-size: 16px;
+  font-weight: 500;
+  transition: .33s all ease-in;  
+} 
+header .top .mm a:hover{ 
+  color: var(--gold-light);
+} 
+header .top .mm a span{ 
+  color: #fff;
+  padding-left: 10px;
+  position: relative;
+  top: 7px;
+  font-size: 24px;
+}
+header .navbar{
+  background-color: #000;
+  height: 135px;
+}
+header .navbar .img-responsive{ 
+  height: 108px;
+  width: 108px;
+}
+.ss-top a img{
+  width: 24px;
+  height: 24px;
+  margin-top: 8px;
+}
+.navbar .navbar-nav .nav-item{ 
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.navbar .navbar-nav .nav-item a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: .33s all ease-out;  
+}
+.navbar .navbar-nav .nav-item.active a{
+  color: var(--main); 
+}
+.navbar .navbar-nav .nav-item:hover a{
+  color: var(--main); 
+}
+.navbar .navbar-nav .nav-item:hover a{
+  color: var(--main); 
+}
+.nav-flag{
+  margin-right: 5px !important;
+}
+.nav-flag img{
+  width: 42px;
+  height: 28px;
+  margin-top: 5px;
+}
+.bn1{
+  height: 680px;
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: 100% auto !important;
+  position: relative;
+}
+.bn1::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 680px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+} 
+.flex-bb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 680px;
+  z-index: 4;
+  position: relative;
+  text-align: center;
+} 
+.flex-bb h1{
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.flex-bb h3{
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+} 
+.flex-bb h2{
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+
+
+
+/*
+#418EFD 
+transition: .33s all ease-out;  
+######################################################################################################
+###################################################################################################### 
+*/ 
+
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }   
+}
+@media only screen and (min-width: 1025px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }   
+}   
+
+.js-example-basic-multiple + .select2{
+  width: 100% !important;
+}
+.select2-container--default .select2-selection--single { 
+  border-radius: 4px;
+  border: 1px solid #D9D9D9 !important;
+  background-color: #FFF;
+} 
+.select2-container--default .select2-selection--single:focus{ 
+  border: 1px solid #D9D9D9 !important;
+} 
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #000; 
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;  
+}
+.select2-selection__rendered {
+  line-height: 38px !important; 
+  border-radius: 4px; 
+}
+.select2-container .select2-selection--single {
+  height: 38px !important; 
+  border-radius: 4px;
+}
+.select2-selection__arrow {
+  height: 38px !important; 
+  border-radius: 4px;
+}
+.datepicker {
+  background-color: rgba(255, 255, 255, 1);
+  font-family: 'Kanit', sans-serif;
+  width: 335px;
+}
+.datepicker .table-condensed{
+  width: 100%; 
+}
+.datepicker .day{
+  padding: 11px 9px !important;
+  border-radius: 100%;
+}
+.datepicker .day:hover{
+  background: var(--main) !important;
+  color: #fff !important;
+}
+.datepicker .active.day{
+  background: var(--main) !important;
+  color: #fff !important;
+}
+.datepicker .today.day{
+  background: var(--main2) !important;
+  color: #fff !important;
+}  
