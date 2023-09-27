@@ -583,7 +583,29 @@ transition: .33s all ease-out;
   .pc-x{
     display: none !important;
   }   
+}    
+@media only screen and (width: 1024px) { /* PC */
+  .bn1 {
+    height: 480px;
+    background-size:  100% auto !important;
+  }
+  .section2 .btn {
+    margin-top: 20px;
+    padding: 15px 50px;
+    display: unset !important;
+  }
+  .section2 .mm {
+    height: 364px;
+  }
+  .section4 { 
+    background-size:  100% auto !important;
+  }
+  .xlx{
+    display: none !important;
+  }
 }   
+
+
 
 .js-example-basic-multiple + .select2{
   width: 100% !important;
