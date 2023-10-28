@@ -631,7 +631,13 @@ footer a:hover{
   color: #fff; 
   background-color: var(--peach-dark); 
 } 
-
+.h4x{
+  background-color: rgba(232, 95, 43, .6);
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+}
 
 /*
 
