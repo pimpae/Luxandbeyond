@@ -807,6 +807,19 @@ transition: .33s all ease-out;
     border-bottom-right-radius: 10px;
     padding: 20px 15px;
   }
+  .navbar.navbar-expand-lg .container{
+    justify-content: end !important;
+  }
+  .flgx img{
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .navbar-brand{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+  }
 }
 @media only screen and (min-width: 1025px) { /* PC */
   .pc-x{
